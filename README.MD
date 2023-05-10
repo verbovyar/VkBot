@@ -5,12 +5,12 @@
 ***Описание бота***
 
 1) Приветственное сообщение
-![Приветственное сообщение](/images/hello.png)
+![Приветственное сообщение]([/images/hello.png](https://github.com/verbovyar/VkBot/blob/main/images/hello.PNG))
 
 
 2) Сам функционал бота
 
-    ![Функционал](/images/functional.png)
+    ![Функционал]([/images/functional.png](https://github.com/verbovyar/VkBot/blob/main/images/functional.PNG))
 
 Вся работа происходит над некой сущностью - это наш объект хранения
 
@@ -37,7 +37,7 @@ type Entity struct {
 развивать проект и проще было изменять или внедрять какие-то части проекта. Весь проект разбит
 на смысловые части (слои).
 
-![архитектура](/images/architecture.png).
+![архитектура]([/images/architecture.png](https://github.com/verbovyar/VkBot/blob/main/images/architecture.PNG)).
 
 Для базы данных спользован интрефейс, чтобы в дальнейшем можно было беспрепядственно подключать
 разные виды БД и не иметь зависимости от других частей проекта. Можно спокойно имплементировать
